@@ -1,0 +1,41 @@
+header{
+
+    background: #BF0B0B;;
+    padding: 1em;
+    height: 110px;
+
+}
+header h1{
+    display: inline;
+    color: #fff;
+    background: #BF0B0B;;
+    
+}
+.img-logo {
+    float: left;
+    display: inline;
+    background-color: transparent;
+}
+.iz{
+    float: right;
+    background-color: #000;
+    border-radius: 5px;
+}
+.img-logo img{
+    display: inline;
+    width: auto;
+    height: 5em;
+    background-color: transparent;
+}
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+    background-color: black;
+
+
+}
+

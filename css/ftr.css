@@ -1,0 +1,179 @@
+
+#form-crud{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.color-red{
+    color: red;
+}
+.caja{
+    border-color: red;
+	border-width: 5px;
+    color: white;
+    background-color: black;	
+}
+
+#colorRojo{
+    border: none;
+    color: aliceblue;
+    background-color: red;
+}
+#colorRojo{
+    border: none;
+    color: aliceblue;
+    background-color: red;
+}
+.caja:hover{
+    border-color: red;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.tabla{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* BARRA NAVEGACION */
+.gs{
+    color: red;
+}
+.gs span{
+    color: white;
+}
+.barra{
+    color: #fff;
+    height: 50px;
+}
+
+.barra_datos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300;
+}
+.link:hover{
+    color: gray; 
+}
+.user-img2 img{
+    width: 4%;
+    height: 4%;
+    
+}
+.user-img2{
+    display:inline-flex;
+}
+
+.link--active{
+    color: red;
+    font-weight: 700;
+}
+/* PAGINA PRESENTACION */
+.user-img img{
+    width: 30%;
+    height: 30%;
+}
+.btn-red{
+	color: white;
+	background: red;
+	border: none;
+}
+/*.centrar {
+    centrar vertical y horizontalmente 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }*/
+
+
+  
+
+
+.title__footer{
+    font-size: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+
+.copyright{
+    width: 100%;
+}
+
+.contFooter{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+}
+footer{
+    margin-top: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.footerInfo{
+    width: 25%;
+    padding: 60px 0;
+    text-align: center;
+    background: black;
+
+}
+.footerDescripcion{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background: transparent;
+}
+.footerExtra{
+    background: #BF0B0B;
+
+}
+.colorICO{
+    font-size: 40px;
+    color: red;
+    line-height: 20px;
+    margin-right: 4px;
+    background-color: transparent;
+}
+
+.buscar{
+    text-align: center;
+    align-content: center;
+} 
+  
+
+@media screen and (max-width:700px){
+  
+    .colorICO{
+        font-size: 40px;
+        color: red;
+        line-height: 20px;
+        margin-right: 4px;
+    }
+    .footerDescripcion{
+        font-size: 10px;
+
+    }
+    .botones{
+        display: flex;
+    }
+}
+@media screen and (max-width:1000px){
+  
+    .botones{
+        display: flex;
+    }
+}
